@@ -1,0 +1,15 @@
+# Discord（音声再生のため [voice] 付き。PyNaCl も入ります）
+discord.py[voice]>=2.4,<3.0
+python-dotenv>=1.0
+
+# 音声合成
+numpy>=1.24
+scipy>=1.10
+pyworld>=0.3.4
+
+# テキスト→かな変換（軽量・必須のフォールバック）
+pykakasi>=2.2
+
+# 読みの精度を上げたい場合（推奨・任意）:
+# 初回実行時に辞書を自動ダウンロードします。ビルドツール(cmake等)が必要な場合あり。
+#   pip install pyopenjtalk

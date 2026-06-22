@@ -1,0 +1,8 @@
+﻿venv/
+.venv/
+voicebank/
+.env
+__pycache__/
+*.pyc
+*.wav
+data/

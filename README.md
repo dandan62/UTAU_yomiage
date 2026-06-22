@@ -64,7 +64,7 @@ pip install pyopenjtalk
 
 ### 3. UTAU音源を置く
 
-`voicebank/` フォルダに音源（`oto.ini` と `*.wav`）を入れます。**CV（単独音）でも VCV（連続音）でもOK**で、
+`voicebank/` フォルダを作成し、その中に音源（`oto.ini` と `*.wav`）を入れます。**CV（単独音）でも VCV（連続音）でもOK**で、
 種類は自動判別されます。`VOICEBANK_DIR` を変えれば別の場所も指定できます。
 
 > 🔸 **利用規約に注意**: 自作音源なら自由ですが、配布音源を使う場合は

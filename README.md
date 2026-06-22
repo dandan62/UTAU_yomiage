@@ -1,3 +1,4 @@
+現状 python 3.12 推奨（pyworldが未対応のため(2026/6)）
 # UTAU音源 読み上げBOT（Discord）
 
 UTAU音源の声で、Discordのテキストチャンネルを読み上げるBOTです。
